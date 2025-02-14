@@ -1,10 +1,11 @@
-package ru.homework.homework2_2.service;
+package ru.homework.homework2_2.shellcontroller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 import ru.homework.homework2_2.domain.BookEntity;
+import ru.homework.homework2_2.service.BookEntityService;
 
 import java.util.List;
 
